@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display:wght@500&display=swap");
+
+* {
+  list-style: none;
+  font-family: "Dancing Script", cursive;
+}
+
+header {
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: -5px 7px 4px 4px black;
+  margin: 0;
+}
+
+.logo_agsou {
+  text-align: center;
+}
+
+nav {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+li:hover {
+  color: #ff1493;
+}
+
+li {
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-align: center;
+}
